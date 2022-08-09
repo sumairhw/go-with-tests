@@ -14,7 +14,6 @@ func TestSum(t *testing.T) {
 	if got != want {
 		t.Errorf("got %d want %d given, %v", got, want, numbers)
 	}
-
 }
 
 func TestSumAllTails(t *testing.T) {
@@ -36,5 +35,4 @@ func TestSumAllTails(t *testing.T) {
 		want := []int{0, 9}
 		checkSums(t, got, want)
 	})
-
 }
